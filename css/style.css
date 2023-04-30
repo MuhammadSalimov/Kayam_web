@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,47 +8,71 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
 
-.line{
+.line {
     display: block;
     width: 100%;
     height: 5px;
     background-color: black;
 }
 
-.bg-1111{
+.bg-1111 {
     background-color: rgb(244, 228, 228);
 }
 
 
-.heading{
+.heading {
     font-size: 34px;
     font-weight: 700;
 }
 
-.heading.text-danger{
+.heading.text-danger {
     color: red !important;
 }
 
-header ul{
+header ul {
     width: 90%;
     justify-content: center;
 }
 
-header{
+header {
     background-color: rgba(1, 45, 83, 0.36);
 }
 
 
 
-h1 b{
+h1 b {
     color: red !important;
     font-size: 50px;
 
 }
 
+.text-red {
+    color: red !important;
+}
 
+.text-red span {
+    color: red !important;
+}
+
+.text-green {
+    color: green !important;
+}
+
+.color-black{
+    color: black !important;
+}
+
+.carousel-control-prev-icon{
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.carousel-control-next-icon{
+    background-color: #000;
+    border-radius: 3px;
+}
