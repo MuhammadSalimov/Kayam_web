@@ -10,6 +10,7 @@
 
 
 .cubic-section {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -19,6 +20,59 @@
     padding: 150px 15px;
 
 }
+
+
+.done{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    left: -100%;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.icons-done{
+    margin: 15px auto;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    font-size: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons-done i{
+    color:#0f0 !important;
+}
+
+.done h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.done h2{
+    font-size: 30px;
+    color: red !important;
+}
+
+.btn-done,.btn-ok{
+    width: 100px;
+    background-color: #00ec00;
+    color: #fff !important;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 
 .cube {
     position: relative;
